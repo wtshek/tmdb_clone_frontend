@@ -42,7 +42,7 @@ export interface TypographyProps {
   fontWeight?: FontWeightEnum;
 }
 
-const Typography: React.FC<TypographyProps> = ({
+export const Typography: React.FC<TypographyProps> = ({
   children,
   element = ElementEnum.DIV,
   fontSize = FontSizeEnum.BASE,

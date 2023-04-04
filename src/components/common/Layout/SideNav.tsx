@@ -1,7 +1,8 @@
-import Typography, {
+import {
   FontSizeEnum,
   TextColorEnum,
-} from '@/components/common/Typography/Typography';
+  Typography,
+} from '@/components/common/Typography';
 
 export enum NavItemType {
   MAIN = 'main',

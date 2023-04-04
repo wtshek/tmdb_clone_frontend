@@ -1,4 +1,4 @@
-import Layout from '@/components/common/Layout/Layout';
+import { Layout } from '@/components/common/Layout';
 import '@/styles/globals.css';
 import type { AppProps } from 'next/app';
 import { Source_Code_Pro } from 'next/font/google';

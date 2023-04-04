@@ -4,11 +4,12 @@ import { MdOutlineSettingsPower } from 'react-icons/md';
 import { BiSearch } from 'react-icons/bi';
 import Image from 'next/image';
 import { IconContext } from 'react-icons/lib';
-import Typography, {
+import {
   FontSizeEnum,
   FontWeightEnum,
   TextColorEnum,
-} from '@/components/common/Typography/Typography';
+  Typography,
+} from '@/components/common/Typography';
 import SideNav, { NavItem, NavItemType } from './SideNav';
 import { useState } from 'react';
 
@@ -174,7 +175,7 @@ const sideNav: NavItem[] = [
   },
 ];
 
-const Layout = ({ children }: LayoutProps) => {
+export const Layout = ({ children }: LayoutProps) => {
   const [isSideNavOpen, setIsSideNavOpen] = useState(false);
 
   const toggleSideNav = (): void => {
