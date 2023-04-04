@@ -8,7 +8,9 @@ import Typography, {
   FontSizeEnum,
   FontWeightEnum,
   TextColorEnum,
-} from '@/components/Typography/Typography';
+} from '@/components/common/Typography/Typography';
+import SideNav, { NavItem, NavItemType } from './SideNav';
+import { useState } from 'react';
 
 type LayoutProps = {
   children: JSX.Element;
@@ -103,14 +105,89 @@ const footer = {
   },
 };
 
+const sideNav: NavItem[] = [
+  {
+    type: NavItemType.MAIN,
+    key: 'movies',
+    label: 'Movies',
+    href: '/movies',
+  },
+  {
+    type: NavItemType.MAIN,
+    key: 'tvshows',
+    label: 'TV Shows',
+    href: '/tvshows',
+  },
+  {
+    type: NavItemType.MAIN,
+    key: 'people',
+    label: 'People',
+    href: '/people',
+  },
+  {
+    type: NavItemType.SUB,
+    key: 'contributionBible',
+    label: 'Contribution Bible',
+    href: '/contribution-bible',
+  },
+  {
+    type: NavItemType.SUB,
+    key: 'apps',
+    label: 'Apps',
+    href: '/apps',
+  },
+  {
+    type: NavItemType.SUB,
+    key: 'discussion',
+    label: 'Discussion',
+    href: '/discussion',
+  },
+  {
+    type: NavItemType.SUB,
+    key: 'leaderboard',
+    label: 'Leaderboard',
+    href: '/leaderboard',
+  },
+  {
+    type: NavItemType.SUB,
+    key: 'api',
+    label: 'API',
+    href: '/api',
+  },
+  {
+    type: NavItemType.SUB,
+    key: 'support',
+    label: 'Support',
+    href: '/support',
+  },
+  {
+    type: NavItemType.SUB,
+    key: 'about',
+    label: 'About',
+    href: '/about',
+  },
+  {
+    type: NavItemType.SUB,
+    key: 'logout',
+    label: 'Logout',
+    href: '/logout',
+  },
+];
+
 const Layout = ({ children }: LayoutProps) => {
+  const [isSideNavOpen, setIsSideNavOpen] = useState(false);
+
+  const toggleSideNav = (): void => {
+    setIsSideNavOpen((prev) => !prev);
+  };
+
   return (
     <>
       <IconContext.Provider value={{ color: ICON_COLOR, size: ICON_SIZE }}>
         <nav className="fix flex justify-between bg-blue w-screen items-center px-5 h-16">
-          <div className="w-1/3">
+          <button className="w-1/3" onClick={toggleSideNav}>
             <GiHamburgerMenu />
-          </div>
+          </button>
           <div className="flex justify-center w-1/3">
             <Image
               src="/tmdb_mobile.svg"
@@ -151,6 +228,7 @@ const Layout = ({ children }: LayoutProps) => {
             );
           })}
         </footer>
+        <SideNav isOpen={isSideNavOpen} items={sideNav} />
       </IconContext.Provider>
     </>
   );

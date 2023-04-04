@@ -12,22 +12,21 @@ export enum ElementEnum {
 }
 
 export enum FontSizeEnum {
-  SM = 'sm',
-  BASE = 'base',
-  LG = 'lg',
-  XL = 'xl',
-  '2XL' = '2xl',
-  '3XL' = '3xl',
-  '4XL' = '4xl',
-  '5XL' = '5xl',
-  '6XL' = '6xl',
+  SM = 'text-sm',
+  BASE = 'text-base',
+  LG = 'text-lg',
+  XL = 'text-xl',
+  '2XL' = 'text-2xl',
+  '3XL' = 'text-3xl',
+  '4XL' = 'text-4xl',
+  '5XL' = 'text-5xl',
+  '6XL' = 'text-6xl',
 }
 
 export enum TextColorEnum {
-  WHITE = 'white',
-  BLACK = 'black',
-  GRAY = 'gray',
-  GRADIENT = 'gradient',
+  WHITE = 'text-white',
+  BLACK = 'text-black',
+  GRAY = 'text-gray',
 }
 
 export enum FontWeightEnum {
@@ -53,7 +52,7 @@ const Typography: React.FC<TypographyProps> = ({
   const Element = element;
 
   return (
-    <Element className={`text-${textColor} text-${fontSize} ${fontWeight}`}>
+    <Element className={`${textColor} ${fontSize} ${fontWeight}`}>
       {children}
     </Element>
   );
