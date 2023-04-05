@@ -8,6 +8,7 @@ import {
   Typography,
 } from '../common/Typography';
 import CreditScore from './CreditScore';
+import Dropdown from './Dropdown';
 
 const arr = Array.from({ length: 10 }, () => 'car');
 const sampleTab = ['Today', 'This Week'];
@@ -24,8 +25,9 @@ const CarouselItemImageHeight = 225;
 export const Carousel = ({ header, element, tabs }: CarouselProps) => {
   return (
     <section className="pt-8">
-      <div>
+      <div className="flex">
         <h2 className="px-4">Trending</h2>
+        <Dropdown items={sampleTab} />
       </div>
       <div className="overflow-x-auto whitespace-nowrap py-5">
         {arr.map((_, index) => (
