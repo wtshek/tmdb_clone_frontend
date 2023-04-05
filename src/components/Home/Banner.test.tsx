@@ -10,15 +10,15 @@ describe('Banner component', () => {
     expect(container).toMatchInlineSnapshot(`
       <div>
         <section
-          class="relative flex flex-col items-start justify-center p-5 min-h-[300px] max-h-[360px] bg-[url('/stephen_king_banner.jpeg')] bg-cover bg-no-repeat"
+          class="relative flex flex-col items-start justify-center p-5 min-h-[300px] max-h-[360px] bg-[url('/image/stephen_king_banner.jpeg')] bg-cover bg-no-repeat"
         >
           <h2
-            class="text-white text-5xl font-bold"
+            class="text-white text-5xl font-bold undefined"
           >
             Welcome.
           </h2>
           <h3
-            class="text-white text-2xl font-normal"
+            class="text-white text-2xl font-normal undefined"
           >
             Millions of movies, TV shows and people to discover. Explore now.
           </h3>

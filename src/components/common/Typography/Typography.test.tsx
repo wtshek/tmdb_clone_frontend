@@ -13,7 +13,7 @@ describe('Typography Component', () => {
 
     expect(container.firstChild).toMatchInlineSnapshot(`
       <div
-        class="text-black text-base font-normal"
+        class="text-black text-base font-normal undefined"
       >
         Hello World
       </div>
@@ -27,7 +27,7 @@ describe('Typography Component', () => {
 
     expect(container.firstChild).toMatchInlineSnapshot(`
       <h1
-        class="text-black text-base font-normal"
+        class="text-black text-base font-normal undefined"
       >
         Hello World
       </h1>
@@ -41,7 +41,7 @@ describe('Typography Component', () => {
 
     expect(container.firstChild).toMatchInlineSnapshot(`
       <div
-        class="text-black text-3xl font-normal"
+        class="text-black text-3xl font-normal undefined"
       >
         Hello World
       </div>
@@ -55,7 +55,7 @@ describe('Typography Component', () => {
 
     expect(container.firstChild).toMatchInlineSnapshot(`
       <div
-        class="text-white text-base font-normal"
+        class="text-white text-base font-normal undefined"
       >
         Hello World
       </div>
@@ -74,7 +74,7 @@ describe('Typography Component', () => {
 
     expect(container.firstChild).toMatchInlineSnapshot(`
       <h2
-        class="text-white text-xl font-normal"
+        class="text-white text-xl font-normal undefined"
       >
         Hello World
       </h2>

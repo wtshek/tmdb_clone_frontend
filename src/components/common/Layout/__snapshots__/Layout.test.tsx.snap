@@ -98,32 +98,32 @@ exports[`Layout component should render children and footer 1`] = `
       class="mb-8"
     >
       <div
-        class="text-white text-lg font-bold"
+        class="text-white text-lg font-bold undefined"
       >
         THE BASICS
       </div>
       <div
-        class="text-white text-base font-normal"
+        class="text-white text-base font-normal undefined"
       >
         About TMDB
       </div>
       <div
-        class="text-white text-base font-normal"
+        class="text-white text-base font-normal undefined"
       >
         Contact Us
       </div>
       <div
-        class="text-white text-base font-normal"
+        class="text-white text-base font-normal undefined"
       >
         Support Forums
       </div>
       <div
-        class="text-white text-base font-normal"
+        class="text-white text-base font-normal undefined"
       >
         API
       </div>
       <div
-        class="text-white text-base font-normal"
+        class="text-white text-base font-normal undefined"
       >
         System Status
       </div>
@@ -132,22 +132,22 @@ exports[`Layout component should render children and footer 1`] = `
       class="mb-8"
     >
       <div
-        class="text-white text-lg font-bold"
+        class="text-white text-lg font-bold undefined"
       >
         GET INVOLVED
       </div>
       <div
-        class="text-white text-base font-normal"
+        class="text-white text-base font-normal undefined"
       >
         Contribution Bible
       </div>
       <div
-        class="text-white text-base font-normal"
+        class="text-white text-base font-normal undefined"
       >
         Add New Movie
       </div>
       <div
-        class="text-white text-base font-normal"
+        class="text-white text-base font-normal undefined"
       >
         Add New Tv Show
       </div>
@@ -156,27 +156,27 @@ exports[`Layout component should render children and footer 1`] = `
       class="mb-8"
     >
       <div
-        class="text-white text-lg font-bold"
+        class="text-white text-lg font-bold undefined"
       >
         COMMUNITY
       </div>
       <div
-        class="text-white text-base font-normal"
+        class="text-white text-base font-normal undefined"
       >
         Guidelines
       </div>
       <div
-        class="text-white text-base font-normal"
+        class="text-white text-base font-normal undefined"
       >
         Discussion
       </div>
       <div
-        class="text-white text-base font-normal"
+        class="text-white text-base font-normal undefined"
       >
         Leaderboard
       </div>
       <div
-        class="text-white text-base font-normal"
+        class="text-white text-base font-normal undefined"
       >
         Follow us on Twitter
       </div>
@@ -185,22 +185,22 @@ exports[`Layout component should render children and footer 1`] = `
       class="mb-8"
     >
       <div
-        class="text-white text-lg font-bold"
+        class="text-white text-lg font-bold undefined"
       >
         LEGAL
       </div>
       <div
-        class="text-white text-base font-normal"
+        class="text-white text-base font-normal undefined"
       >
         Terms of Use
       </div>
       <div
-        class="text-white text-base font-normal"
+        class="text-white text-base font-normal undefined"
       >
         API Terms of Use
       </div>
       <div
-        class="text-white text-base font-normal"
+        class="text-white text-base font-normal undefined"
       >
         Privacy Policy
       </div>
@@ -220,7 +220,7 @@ exports[`Layout component should render children and footer 1`] = `
             class="mt-2.5"
           >
             <div
-              class="text-white text-xl font-normal"
+              class="text-white text-xl font-normal undefined"
             >
               Movies
             </div>
@@ -229,7 +229,7 @@ exports[`Layout component should render children and footer 1`] = `
             class="mt-2.5"
           >
             <div
-              class="text-white text-xl font-normal"
+              class="text-white text-xl font-normal undefined"
             >
               TV Shows
             </div>
@@ -238,7 +238,7 @@ exports[`Layout component should render children and footer 1`] = `
             class="mt-2.5"
           >
             <div
-              class="text-white text-xl font-normal"
+              class="text-white text-xl font-normal undefined"
             >
               People
             </div>
@@ -247,7 +247,7 @@ exports[`Layout component should render children and footer 1`] = `
             class="mt-2.5"
           >
             <div
-              class="text-gray text-base font-normal"
+              class="text-gray text-base font-normal undefined"
             >
               Contribution Bible
             </div>
@@ -256,7 +256,7 @@ exports[`Layout component should render children and footer 1`] = `
             class="mt-2.5"
           >
             <div
-              class="text-gray text-base font-normal"
+              class="text-gray text-base font-normal undefined"
             >
               Apps
             </div>
@@ -265,7 +265,7 @@ exports[`Layout component should render children and footer 1`] = `
             class="mt-2.5"
           >
             <div
-              class="text-gray text-base font-normal"
+              class="text-gray text-base font-normal undefined"
             >
               Discussion
             </div>
@@ -274,7 +274,7 @@ exports[`Layout component should render children and footer 1`] = `
             class="mt-2.5"
           >
             <div
-              class="text-gray text-base font-normal"
+              class="text-gray text-base font-normal undefined"
             >
               Leaderboard
             </div>
@@ -283,7 +283,7 @@ exports[`Layout component should render children and footer 1`] = `
             class="mt-2.5"
           >
             <div
-              class="text-gray text-base font-normal"
+              class="text-gray text-base font-normal undefined"
             >
               API
             </div>
@@ -292,7 +292,7 @@ exports[`Layout component should render children and footer 1`] = `
             class="mt-2.5"
           >
             <div
-              class="text-gray text-base font-normal"
+              class="text-gray text-base font-normal undefined"
             >
               Support
             </div>
@@ -301,7 +301,7 @@ exports[`Layout component should render children and footer 1`] = `
             class="mt-2.5"
           >
             <div
-              class="text-gray text-base font-normal"
+              class="text-gray text-base font-normal undefined"
             >
               About
             </div>
@@ -310,7 +310,7 @@ exports[`Layout component should render children and footer 1`] = `
             class="mt-2.5"
           >
             <div
-              class="text-gray text-base font-normal"
+              class="text-gray text-base font-normal undefined"
             >
               Logout
             </div>

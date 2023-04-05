@@ -40,6 +40,7 @@ export interface TypographyProps {
   fontSize?: FontSizeEnum;
   textColor?: TextColorEnum;
   fontWeight?: FontWeightEnum;
+  className?: string;
 }
 
 export const Typography: React.FC<TypographyProps> = ({
@@ -48,11 +49,12 @@ export const Typography: React.FC<TypographyProps> = ({
   fontSize = FontSizeEnum.BASE,
   textColor = TextColorEnum.BLACK,
   fontWeight = FontWeightEnum.NORMAL,
+  className,
 }) => {
   const Element = element;
 
   return (
-    <Element className={`${textColor} ${fontSize} ${fontWeight}`}>
+    <Element className={`${textColor} ${fontSize} ${fontWeight} ${className}`}>
       {children}
     </Element>
   );

@@ -22,7 +22,7 @@ export const Banner = () => {
     }
   };
   return (
-    <section className="relative flex flex-col items-start justify-center p-5 min-h-[300px] max-h-[360px] bg-[url('/stephen_king_banner.jpeg')] bg-cover bg-no-repeat">
+    <section className="relative flex flex-col items-start justify-center p-5 min-h-[300px] max-h-[360px] bg-[url('/image/stephen_king_banner.jpeg')] bg-cover bg-no-repeat">
       <Typography
         textColor={TextColorEnum.WHITE}
         element={ElementEnum.H2}
