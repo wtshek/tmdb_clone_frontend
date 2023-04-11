@@ -197,18 +197,18 @@ export const Layout = ({ children }: LayoutProps) => {
               height={LOGO_HEIGHT}
             />
           </div>
-          <div className="flex justify-between w-1/3">
+          <div className="flex justify-end w-1/3">
             <BsBellFill />
-            <MdOutlineSettingsPower />
+            <MdOutlineSettingsPower className="ml-4" />
             <IconContext.Provider
               value={{ color: SEARCH_ICON_COLOR, size: ICON_SIZE }}
             >
-              <BiSearch />
+              <BiSearch className="ml-4" />
             </IconContext.Provider>
           </div>
         </nav>
         {children}
-        <footer className="bg-blue py-10 px-5">
+        <footer className="bg-blue py-10 px-5 md:flex md:justify-between md:px-16">
           {Object.entries(footer).map(([key, values]) => {
             const { header, items } = values;
             return (

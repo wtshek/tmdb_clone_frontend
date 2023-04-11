@@ -26,7 +26,7 @@ export enum FontSizeEnum {
 export enum TextColorEnum {
   WHITE = 'text-white',
   BLACK = 'text-black',
-  GRAY = 'text-gray',
+  GRAY = 'text-[rgba(255,255,255,0.6)]',
 }
 
 export enum FontWeightEnum {

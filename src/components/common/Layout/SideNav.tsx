@@ -26,7 +26,7 @@ const SideNav = ({ isOpen, items }: SideNavProps) => {
     <div className="relative">
       {/* Menu that slides in from the left */}
       <div
-        className={`fixed top-16 left-0 h-screen w-64 bg-blue-blur backdrop-blur-[20px]  z-50 transition-transform duration-300 transform ${
+        className={`fixed top-16 left-0 h-screen w-64 bg-blue-blur backdrop-blur-[20px] min-w-[70%] z-50 transition-transform duration-300 transform ${
           isOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
